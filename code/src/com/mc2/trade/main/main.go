@@ -31,7 +31,7 @@ func main() {
 	conf.SetPrefix(confPrefix)
 	err := log.Init(false)
 	if err != nil {
-		fmt.Printf("off_plat: init err log.Init():%s\n", err.Error())
+		fmt.Printf("init err log.Init():%s\n", err.Error())
 		abnormalExit()
 	}
 	defer log.Logger.Close()
