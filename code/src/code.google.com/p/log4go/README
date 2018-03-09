@@ -1,0 +1,18 @@
+Please see http://log4go.googlecode.com/
+
+Installation:
+- Run `goinstall log4go.googlecode.com/hg`
+
+Usage:
+- Add the following import:
+import l4g "log4go.googlecode.com/hg"
+
+Acknowledgements:
+- pomack
+  For providing awesome patches to bring log4go up to the latest Go spec
+
+Change: by duanliguo@baidu.com
+
+- Change longTime's format to '%02d:%02d:%02d.%d' (add milliSecond)
+- Remove dependent on bfe
+- Change 'S' format from function:no to file:no
