@@ -1,0 +1,4 @@
+[log]
+path                = "../logger"
+level               = DEBUG              # DEBUG, TRACE, INFO, WARNING, ERROR, CRITICAL
+save                = 72                 # the sum of logs gt 72 with be removed by controller

@@ -1,0 +1,6 @@
+package: com/mc2/trade
+ignore:
+- code.google.com/p/log4go
+import:
+- package: github.com/go-gcfg/gcfg
+  version: ^1.2.1
